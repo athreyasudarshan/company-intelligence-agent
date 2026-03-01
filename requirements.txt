@@ -1,0 +1,12 @@
+langgraph
+langchain
+langchain-groq
+yfinance
+duckduckgo-search
+transformers
+torch
+streamlit
+plotly
+pydantic
+python-dotenv
+chromadb
