@@ -27,6 +27,7 @@ ARIA orchestrates 5 specialized agents in a LangGraph pipeline:
 - AI-generated analyst summaries and comparative reports via LLaMA 3
 - Clickable news headlines linking to original sources
 - Interactive charts — stock price comparison and sentiment breakdown
+- Persistent agent memory with ChromaDB — tracks previous analyses and shows price movement and sentiment shifts since last search
 - Bloomberg Terminal-inspired dark UI built with Streamlit
 
 ---
@@ -42,6 +43,7 @@ ARIA orchestrates 5 specialized agents in a LangGraph pipeline:
 | Sentiment Analysis | FinBERT (ProsusAI) — Finance-specific NLP model |
 | Frontend | Streamlit + Plotly |
 | Data Validation | Pydantic |
+| Memory & Storage | ChromaDB — Persistent vector store for agent memory |
 
 
 ---
